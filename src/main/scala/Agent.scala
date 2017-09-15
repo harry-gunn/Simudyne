@@ -1,0 +1,10 @@
+case class Agent(agent_breed: String,
+                 policy_id: String,
+                 age: Double,
+                 social_grade: Double,
+                 payment_at_purchase: Double,
+                 attribute_brand: Double,
+                 attribute_price: Double,
+                 attribute_promotions: Double,
+                 auto_renew: Double,
+                 inertia_for_switch: Double)
