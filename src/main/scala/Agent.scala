@@ -7,4 +7,5 @@ case class Agent(agent_breed: String,
                  attribute_price: Double,
                  attribute_promotions: Double,
                  auto_renew: Double,
-                 inertia_for_switch: Double)
+                 inertia_for_switch: Double,
+                 breedChange: Boolean)
